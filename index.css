@@ -148,8 +148,13 @@ footer{
     margin-top: 20px;
     text-align: center;
 }
+#contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
 .contact-head{
-    text-align: center ;
+    text-align: center;
 }
 @media (min-width:300px) and (max-width: 650px)  {
 
@@ -188,4 +193,10 @@ footer{
         z-index: 2;
         color: white; 
     }
+    #contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:20px;
+}
 }    
